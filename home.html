@@ -1,0 +1,62 @@
+<HTML>
+	<HEAD>
+		<TITLE>Computer Glasses: Home Navigation</TITLE>
+
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+		<!--<link rel="stylesheet" type="text/css" href="css/i_style.css">-->
+		<link rel="stylesheet" type="text/css" href="css/jquery-swipe-nav.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,400italic,900' rel='stylesheet' type='text/css'>
+
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="scripts/jquery-swipe-nav-plugin.js"></script>
+		<script src="scripts/glasses_icon.js"> </script>
+
+
+		<script>
+			jQuery(document).ready(function($){
+				//jQueryPlug-in Slide-Nav
+				$('#swipeNav').swipeNav();
+			});
+		</script>
+	
+	</HEAD>
+
+	<BODY>
+		
+		
+		<div class = "question title">
+			<img src="pics/list-icon.png" alt width="30" height="30" id="menuBtn">
+		</div>
+
+		<div class="landing nav_bubble picture" id="nav_bub_id">
+			<script type="application/json" src="scripts/nav_nodes.json" id="mis"></script>
+			<script src="scripts/draw_navigation.js"> </script>
+		</div>
+
+
+
+		<div class="icon2home">
+			<div id="show_image2"> </div>
+			<a href="home.html"> 
+				<div class="lenses" id="l3" onmouseover="change_image2(true)" onmouseout="change_image2(false)"> </div>
+			</a>
+			<a href="home.html">
+				<div class="lenses" id="l4" onmouseover="change_image2(true)" onmouseout="change_image2(false)"> </div>
+			</a>
+		</div>
+
+		<nav id="swipeNav">
+  			<ul>
+    			<li><a href="home.html">Home</a></li>
+    			<li><a href="page_1.html">Lenses and the Eye</a></li>
+    			<li><a href="page_2.html">Digital Eye Strain</a></li>
+    			<li><a href="page_3.html">Prevalence of Computer Vision Syndrome</a></li>
+    			<li><a href="page_4.html">Wearing Computer Glasses</a></li>
+    			<li><a href="page_5.html">Tweeting about Computer Glasses</a></li>
+    			<li><a href="page_6.html">Comparing Solutions</a></li>
+    			<li><a href="page_7.html">Design of Computer Glasses</a></li>
+  			</ul>
+		</nav>
+	</BODY>
+</HTML>

@@ -1,0 +1,99 @@
+*
+{
+	font-family: 'Lato', sans-serif;
+}
+
+body 
+{
+	background-color: #fff;
+	margin: 20px;
+}
+
+.question
+{
+	/*background-color: yellow;
+	opacity: .5;*/
+	position: relative;
+	/*padding: 20px;*/
+	display: block;
+	height: 100px;
+	z-index: 99;
+}
+
+.icon2home
+{
+	background-color: transparent;
+	/*border: 2px solid #000;*/
+    width: 250px;
+    height: 179px;
+    position: absolute;
+    bottom: -20;
+    right: -10;
+    z-index: 99;
+}
+
+#l3
+{
+	/*background-color: purple;
+	opacity: .5;*/
+	position:absolute;
+	top: 88px;
+	left: 95px;
+	width: 70px;
+	height: 46px;
+	border-radius: 20px 20px 60px 20px;
+	transform: rotate(-14deg);
+}
+
+#l4
+{
+	/*background-color: purple;
+	opacity: .5;*/
+	position: absolute;
+	top: 62px;
+	left: 170px;
+	width: 56px;
+	height: 38px;
+	border-radius: 50px 10px 60px 18px;
+	transform: rotate(-30deg);
+}
+
+#show_image2
+{
+	width: 100%;
+	height: 100%;
+	background: transparent url("../pics/glasses_technical_drawing-01.svg") no-repeat;
+
+}
+
+.node {
+    stroke: #fff;
+    stroke-width: 1.5px;
+}
+.link {
+    /*stroke: #999;
+    stroke-opacity: .6;*/
+}
+
+title {
+    color: #111;
+    text-align: center;  
+    font-style: italic;
+    font-size: 14px;
+    font-family: "Lato";
+}
+
+.nav_bubble
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 98;
+}
+
+#menuBtn
+{
+	padding-top: 5px;
+}

@@ -1,0 +1,12 @@
+symptom,N,Prevalence,Prevalence_LCI,Prevalence_UCI,Male_Prev,Male_Prev_LCI,Male_Prev_UCI,Female_Prev,Female_Prev_LCI,Female_Prev_UCI
+Eye Pain,634,28.7,26.8,30.6,27.8,25.2,30.5,29.6,26.9,32.4
+Headache,1010,45.7,43.6,47.8,38.1,35.2,41.0,53.5,50.5,56.5,,,
+Blurry Near Vision,526,23.8,22.0,25.6,24.5,22.1,27.2,23.0,20.5,25.6
+Blurry Distant Vision,444,20.1,18.4,21.8,19.6,0.4,40.5,20.6,18.2,23.1
+Dry Eyes,688,31.1,29.1,33.1,30.8,28.1,33.6,31.4,28.7,34.3
+Irritated Eyes,578,26.2,24.4,28.1,25.3,22.8,27.9,27.0,24.4,29.8
+Red Eyes,400,18.1,16.5,19.8,21.9,19.5,24.5,14.2,12.1,16.4
+Excessive Tearing,460,20.8,19.1,22.6,23.2,20.7,25.8,18.4,16.1,20.8
+Double Vision,302,13.7,12.3,15.2,15.0,12.9,17.2,12.3,10.4,14.4
+Eye Lid Twitching,452,20.5,18.8,22.2,21,18.7,23.5,19.9,17.9,22.25
+Visualizing Color Changes,206,9.3,8.1,10.6,12.7,10.8,14.7,5.9,4.6,7.5

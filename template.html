@@ -1,0 +1,73 @@
+<HTML>
+	<HEAD>
+		<TITLE>Computer Glasses: Template Page</TITLE>
+
+		<link rel="stylesheet" type="text/css" href="css/all.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery-swipe-nav.css">
+		<link rel="stylesheet" type="text/css" href="css/template.css">
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,400italic,900' rel='stylesheet' type='text/css'>
+
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="scripts/jquery-swipe-nav-plugin.js"></script>
+		<script src="scripts/glasses_icon.js"> </script>
+
+
+		<script>
+			jQuery(document).ready(function($){
+				//jQueryPlug-in Slide-Nav
+				$('#swipeNav').swipeNav();
+			});
+		</script>
+	
+	</HEAD>
+
+	<BODY>
+		
+		
+		<div class = "question title">
+			<img src="pics/list-icon.png" alt width="30" height="30" id="menuBtn">
+			<h1>What kind of questions can you expect to be answered?</h1>
+		</div>
+
+		<div class="unique" id="plot">
+			<div id="chart"> 
+				<div class="hold_buttons">
+					<div class='centered'>
+					<button type="Submit" value="button-1" class="buttons" id="btn-1">button 1</button>
+					<button type="Submit" value="button-2" class="buttons" id="btn-2">button 2</button>
+					<button type="Submit" value="button-3" class="buttons" id="btn-3">button 3</button>
+					<button type="Reset" value="button-4" class="buttons" id="btn-r">reset bu</button>
+					</div>
+				</div>
+				<div class="hold_vis"></div>
+			</div>
+			
+		</div>
+
+
+
+		<div class="icon2home">
+			<div id="show_image2"> </div>
+			<a href="home.html"> 
+				<div class="lenses" id="l3" onmouseover="change_image2(true)" onmouseout="change_image2(false)"> </div>
+			</a>
+			<a href="home.html">
+				<div class="lenses" id="l4" onmouseover="change_image2(true)" onmouseout="change_image2(false)"> </div>
+			</a>
+		</div>
+
+		<nav id="swipeNav">
+  			<ul>
+    			<li><a href="home.html">Home</a></li>
+    			<li><a href="page_1.html">Lenses and the Eye</a></li>
+    			<li><a href="page_2.html">Digital Eye Strain</a></li>
+    			<li><a href="page_3.html">Prevalence of Computer Vision Syndrome</a></li>
+    			<li><a href="page_4.html">Wearing Computer Glasses</a></li>
+    			<li><a href="page_5.html">Tweeting about Computer Glasses</a></li>
+    			<li><a href="page_6.html">Comparing Solutions</a></li>
+    			<li><a href="page_7.html">Design of Computer Glasses</a></li>
+  			</ul>
+		</nav>
+	</BODY>
+</HTML>

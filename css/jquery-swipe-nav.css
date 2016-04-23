@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+.question{
+		position: relative;
+		padding: 20px;
+		display: block;
+	}
+
+/* CSS Document adapted from http://www.jqueryscript.net/menu/Touch-enabled-Burger-Push-Menu-Plugin-With-jQuery-SwipeNav.html */
+#swipeNav{
+	width: 240px;
+	color: #ffffff;
+	background: #722f37; /* Old browsers */
+	background: -moz-linear-gradient(top, #722f37 0%, #4d4d4d 100%, #7db9e8 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #722f37 0%,#4d4d4d 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #722f37 0%,#4d4d4d 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#722f37', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow: -6px 0px 2px 0 rgba(30, 30, 30,0.2) inset;
+    -moz-box-shadow: -6px 0px 2px 0 rgba(30, 30, 30,0.2) inset;
+    box-shadow: -6px 0px 2px 0 rgba(30, 30, 30,0.2) inset;
+    -webkit-overflow-scrolling: touch;
+}
+
+#swipeNav ul{
+	padding-left: 0px;
+}
+
+#swipeNav li{
+	list-style-position: inside;
+	list-style-type: none;
+	border-bottom: solid 1px #ffffff;
+	width: 100% ;
+	padding: 10px 0 10px 0;
+}
+#swipeNav a{
+	display: inline-block;
+	width: 100%;
+	padding: 20px;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 100;
+	font-size: 14pt;
+	padding: 10px,0,10px,0;
+	-moz-transition: background 0.7s linear;
+	-webkit-transition: background 0.7s linear;
+	transition: background 0.7s linear;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+#swipeNav a:hover{
+	background: rgba(0, 140, 152, 1);
+}
+#menuBtn{
+	cursor: pointer;
+	z-index: 99;
+}
