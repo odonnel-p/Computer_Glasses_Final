@@ -16,7 +16,7 @@ body
 	position: relative;
 	/*padding: 20px;*/
 	display: block;
-	height: 100px;
+	height: 120px;
 	z-index: 99;
 }
 
@@ -27,8 +27,8 @@ body
     width: 250px;
     height: 179px;
     position: absolute;
-    bottom: -20;
-    right: -10;
+    bottom: 0;
+    right: 10;
     z-index: 99;
 }
 
@@ -96,4 +96,43 @@ title {
 #menuBtn
 {
 	padding-top: 5px;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: center;           
+  width: 140px;                  
+  height: 32px;                 
+  padding: 4px;             
+  font: 12px "Lato";          
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+.axis path {
+  display: none;
+}
+
+.axis line {
+  shape-rendering: crispEdges;
+  stroke: #999;
+}
+
+.axis .minor line {
+  shape-rendering: crispEdges;
+  stroke: #999;
+  stroke-dasharray: 3,3;
+}
+
+#move_it1
+{
+	position:relative;
+	float: left;
+}
+
+#move_it2
+{
+	position:relative;
+	float:left;
 }

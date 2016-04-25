@@ -1,16 +1,20 @@
 <HTML>
 	<HEAD>
-		<TITLE>Computer Glasses: Home Navigation</TITLE>
+		<TITLE>Computer Glasses: Template Page</TITLE>
 
 		<link rel="stylesheet" type="text/css" href="css/all.css">
-		<!--<link rel="stylesheet" type="text/css" href="css/i_style.css">-->
 		<link rel="stylesheet" type="text/css" href="css/jquery-swipe-nav.css">
+		<link rel="stylesheet" type="text/css" href="css/template.css">
+		<link rel="stylesheet" type="text/css" href="css/all.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,400italic,900' rel='stylesheet' type='text/css'>
 
-		<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 		<script src="scripts/jquery-swipe-nav-plugin.js"></script>
 		<script src="scripts/glasses_icon.js"> </script>
+		<script src="http://d3js.org/queue.v1.min.js"></script>
+		
+
 
 		<script>
 			jQuery(document).ready(function($){
@@ -26,15 +30,30 @@
 		
 		<div class = "question title">
 			<img src="pics/list-icon.png" alt width="30" height="30" id="menuBtn">
+			<h1>Case Study: How does Gunnar Optiks' computer glasses design support eye health<br>and digital screen operation?</h1>
 		</div>
 
-		<div class="landing nav_bubble picture" id="nav_bub_id">
-			<script type="application/json" src="scripts/nav_nodes.json" id="mis"></script>
-			<script src="scripts/draw_navigation.js"> </script>
+		<div class="unique" id="plot">
+			<div id="chart"> 
+				<div class="hold_buttons">
+					<div class='centered'>
+						<button type="Submit" value="button-1" class="buttons" id="btn-1">frame shape</button>
+						<button type="Submit" value="button-2" class="buttons" id="btn-2">lens material</button>
+						<button type="Submit" value="button-3" class="buttons" id="btn-3">lens tint</button>
+						<button type="Submit" value="button-4" class="buttons" id="btn-4">lens power</button>
+					</div>
+				</div>
+				<div class="hold_vis">
+				</div>
+			</div>
+			
 		</div>
 
 
+		<div class="explain">
+			<h5>An Interview with Gunnar President: Scott Sorenson.</h5> 
 
+		</div>
 		<div class="icon2home">
 			<div id="show_image2"> </div>
 			<a href="home.html"> 
@@ -57,7 +76,7 @@
     			<li><a href="page_7.html">Design of Computer Glasses</a></li>
   			</ul>
 		</nav>
-
-
+	
+	<script src="scripts/7.js"> </script>
 	</BODY>
 </HTML>
