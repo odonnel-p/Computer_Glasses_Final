@@ -1,0 +1,133 @@
+.hold_vis
+{
+	height: 900px;
+}
+.hold_vis>img
+{
+	position:absolute;
+	z-index: 97
+}
+
+	#quoted
+	{	
+		top: 80px;
+		left: 300px;
+	}
+
+	#p1
+	{
+		top: 0;
+		left: 0;
+	}
+
+	#p2
+	{
+		top: 0;
+		left: 1000;
+	}
+
+	#p3
+	{
+		top: 550;
+		left:0;
+	}
+
+	#p4
+	{	
+		top:550;
+		left:1000;
+	}
+
+.hold_vis>h4
+{
+	position:absolute;
+	font-family: 'Lato', sans-serif;
+	font-weight: 400px;
+	font-size: 18px;
+	z-index: 98;
+}
+
+	#h4a
+	{
+		top: 300;
+		left: 85;
+	}
+
+		#h4b
+	{
+		top: 300;
+		left: 1085;
+	}
+
+		#h4c
+	{
+		top: 850;
+		left: 85;
+	}
+
+		#h4d
+	{
+		top: 850;
+		left: 1085;
+	}
+
+.hoverable
+{
+	position: absolute;
+	background-color: 'yellow';
+	height: 300px;
+	width:150px;
+	z-index: 99;
+}
+
+	.hoverable > .pers
+	{
+		fill:'yellow';
+		position:relative;
+		width: 100%;
+		height: 100%;
+	}
+
+
+	#hov1
+	{
+
+		top:50;
+		left:75;
+		
+	}
+
+	#hov2
+	{
+		
+		top:50;
+		left:1075;
+		
+	}
+
+	#hov3
+	{
+		
+		top:600;
+		left:75;
+		
+	}
+
+	#hov4
+	{
+		
+		top:600;
+		left:1075;
+		
+	}
+
+	#hovq
+	{
+		position: absolute;
+		background: 'yellow';
+		height:400px;
+		width:400px;
+		left:450;
+		top:230;
+		z-index: 99;
+	}

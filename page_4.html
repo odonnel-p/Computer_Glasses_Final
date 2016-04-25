@@ -5,6 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="css/all.css">
 		<link rel="stylesheet" type="text/css" href="css/jquery-swipe-nav.css">
 		<link rel="stylesheet" type="text/css" href="css/template.css">
+		<link rel="stylesheet" type="text/css" href="css/4.css">
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,100,400italic,900' rel='stylesheet' type='text/css'>
 
 		<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
@@ -29,26 +30,43 @@
 		
 		<div class = "question title">
 			<img src="pics/list-icon.png" alt width="30" height="30" id="menuBtn">
-			<h1>What is the prevalence of symptoms associated with<br> Computer Vision Syndrome among daily computer users?</h1>
+			<h1>What is your experience like when wearing computer glasses for work?</h1>
 		</div>
 
 		<div class="unique" id="plot">
 			<div id="chart"> 
 				<div class="hold_buttons">
 					<div class='centered'>
-					<button type="Submit" value="button-1" class="buttons" id="btn-1">all participants</button>
-					<button type="Submit" value="button-2" class="buttons" id="btn-2">male</button>
-					<button type="Submit" value="button-3" class="buttons" id="btn-3">female</button>
+						<select name="select" id='select'>
+						  <option value="q1">What symptoms (if any) do you feel are alleviated/improved by using these glasses?</option>
+						  <option value="q2">Are there any inconveniences with your anti-glare/anti-blue-light glasses?</option>
+						  <option value="q3">Do you perceive any social ramifications from wearing these glasses?</option>
+						</select>
 					</div>
 				</div>
-				<div class="hold_vis"></div>
+				<div class="hold_vis">
+					<img src="person-01.svg" height='300' width='300' class='per' id = 'p1'></img>
+					<h4 id='h4a'>E.Q. | 29 | F | OH</h4>
+					<img src="person-01.svg" height='300' width='300' class='per' id = 'p2'></img>
+					<h4 id='h4b'>K.R. | 41 | M | KY </h4>
+					<img src="quote_br-01.svg" height='700' width='700' id='quoted'></img>
+					<img src="person-01.svg" height='300' width='300' class='per' id = 'p3'></img>
+					<h4 id='h4c'>K.C. | 33 | F | OH</h4>
+					<img src="person-01.svg" height='300' width='300' class='per' id = 'p4'></img>
+					<h4 id='h4d'>M.M. | 29 | F | MA</h4>
+						<div class='hoverable' id='hov1'><svg class='pers' id='pe1'></div>
+						<div class='hoverable' id='hov2'><svg class='pers' id='pe2'></svg></div>
+						<div id='hovq'><svg class='quo' id='quo'></svg></div>
+						<div class='hoverable' id='hov3'><svg class='pers' id='pe3'></svg></div>
+						<div class='hoverable' id='hov4'><svg class='pers' id='pe4'></svg></div>
+				</div>
 			</div>
 			
 		</div>
 
 
 		<div class="explain">
-			<h5>A study of daily computer users in office jobs living in Sri Lanka has found that appoximately 67.7% of workers experience symptoms of Computer Vision Syndrome from extended viewing of digital screens. The rest of this intro needs to be summed up.</h5> 
+			<h5>Four acquaintences were interviewed on the basis that they wear computer classes for work at least once a week. Each person has different reasons for purchasing or using computer glasses. The interviews were conducted by email. </h5> 
 
 		</div>
 		<div class="icon2home">
@@ -74,6 +92,6 @@
   			</ul>
 		</nav>
 	
-	<script src="scripts/3.js"> </script>
+	<script src="scripts/4.js"> </script>
 	</BODY>
 </HTML>
