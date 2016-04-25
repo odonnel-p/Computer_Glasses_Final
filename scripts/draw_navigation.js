@@ -25,7 +25,7 @@ var svg = d3.select(".nav_bubble").append("svg")
 
 
 //Read the data from the JSON file
-d3.json("./data/nav_nodes.JSON", function(err, graph) {
+d3.json("./nav_nodes.JSON", function(err, graph) {
   console.log(graph);
   if (err) throw err;
 
