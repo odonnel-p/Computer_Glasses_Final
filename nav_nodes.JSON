@@ -1,0 +1,39 @@
+{
+	"nodes": 
+    [
+        {"name": "Home",                                    "group": 1}, 
+        {"name": "Lenses and the Eye",                      "group": 2}, 
+        {"name": "Digital Eye Strain",                      "group": 2}, 
+        {"name": "Prevalence of Computer Vision Syndrome",  "group": 2}, 
+        {"name": "Wearing Computer Glasses",                "group": 3}, 
+        {"name": "Tweeting about Computer Glasses",         "group": 4}, 
+        {"name": "Comparing Solutions",                     "group": 4}, 
+        {"name": "Design of Computer Glasses",              "group": 3}
+    ],
+
+    "links": 
+    [	
+        {"source": 0, "target": 1,  "value": 1},
+        {"source": 0, "target": 2,  "value": 1}, 
+        {"source": 0, "target": 3,  "value": 1}, 
+        {"source": 0, "target": 4,  "value": 1}, 
+        {"source": 0, "target": 5,  "value": 1},
+        {"source": 0, "target": 6,  "value": 1}, 
+        {"source": 0, "target": 7,  "value": 1},
+        {"source": 1, "target": 4,  "value": 2}, 
+        {"source": 1, "target": 6,  "value": 2},
+        {"source": 1, "target": 7,  "value": 2}, 
+        {"source": 2, "target": 6,  "value": 2},
+        {"source": 2, "target": 5,  "value": 2}, 
+        {"source": 2, "target": 3,  "value": 2}, 
+        {"source": 3, "target": 5,  "value": 2}, 
+        {"source": 3, "target": 6,  "value": 2},
+        {"source": 4, "target": 5,  "value": 2}, 
+        {"source": 4, "target": 6,  "value": 2}, 
+        {"source": 4, "target": 7,  "value": 2},
+        {"source": 5, "target": 6,  "value": 2},
+        {"source": 5, "target": 7,  "value": 2},
+        {"source": 6, "target": 7,  "value": 2}
+    ]
+}
+
